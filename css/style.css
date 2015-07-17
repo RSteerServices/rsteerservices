@@ -1,0 +1,288 @@
+/*ALL SITE STYLES*/
+@import url(http://fonts.googleapis.com/css?family=Cabin:400,600);
+
+body {
+	font-family: 'Cabin', Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	background-color: #FAFAFA;
+	color: #2F4550;
+
+}
+
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #8DA7BE;
+	z-index: 10;
+	border-bottom:1px solid #2e4756;
+	padding: 20px 0 20px 0;
+	text-align: center;
+}
+
+
+header a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+h1 {
+	font-size: 35px;
+	text-transform: uppercase;
+}
+
+
+nav {
+	margin: 10px 0 0 0;
+}
+
+nav a {
+	text-decoration: none;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 15px;
+
+}
+
+a:visited {
+	color: #ffffff;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h2 {
+	font-size: 25px;
+	text-transform: uppercase;
+	padding: 0 0 10px 0;
+}
+
+h3 {
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+
+footer {
+	background-color: #8DA7BE;
+	padding: 20px 0 20px 0;
+	text-align: center;
+	border-top:1px solid #2e4756;
+	color: #ffffff;
+}
+
+.lightbox {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 100vh;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.5);
+	display: none;
+}
+
+.lightbox img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 500px;
+}
+
+/*INDEX PAGE STYLES*/
+
+.intro {
+	margin: 150px 0 50px 0;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto 0 auto;
+}
+
+.intro img {
+	border: 3px solid #2F4550;
+	width: 100%;
+}
+
+.workvan {
+	float: left;
+	width: 50%;
+}
+
+.about {
+	float: left;
+	width: 50%;
+	padding: 0 0 0 20px;
+}
+
+.testimonials {
+	padding: 0 0 50px 0;
+}
+
+.testimonials h2 {
+	text-align: center;
+	margin: 0 0 20px 0;
+}
+
+.tile {
+	background-color: #90a8c3;
+	margin: 0 15px 0 15px;
+	border: 1px solid #2e4756;
+	border-radius: 3px;
+	padding: 20px 20px 20px 20px;
+}
+
+.tile blockquote {
+	text-align: center;
+}
+
+.tile p {
+	text-align: center;
+}
+
+.property {
+	padding: 0 0 50px 0;
+	text-align: center;
+}
+
+.property a {
+	text-decoration: underline;
+	color: #2F4550;
+}
+
+.property a:hover {
+	text-decoration: underline;
+}
+
+.plumbing {
+	padding: 0 0 50px 0;
+	text-align: center;
+}
+
+.plumbing a {
+	text-decoration: underline;
+	color: #2F4550;
+}
+
+.plumbing a:hover {
+	text-decoration: underline;
+}
+
+/*contact page*/
+
+.location {
+	margin: 150px 0 0 0;
+	height: 400px;
+}
+
+.location h3 {
+	padding: 20px 0 10px 0;
+}
+
+.location a {
+	text-decoration: underline;
+	color: #2F4550;
+}
+
+.location iframe {
+	border: 3px solid #2F4550;
+	width: 500px;
+	height: 300px;
+}
+.map {
+	float: left;
+	width: 50%;
+}
+
+.details {
+	float: left;
+	width: 50%;
+}
+
+.phone {
+	float: left;
+	width: 50%;
+}
+
+.email {
+	float: left;
+	width: 50%;
+}
+
+.areas {
+	padding: 0 0 50px 0;
+}
+
+/*property page*/
+
+.propertyintro {
+	margin: 150px 0 50px 0;
+	text-align: center;
+}
+
+.propertyintro a {
+	text-decoration: underline;
+	color: #2F4550;
+}
+
+.propertyintro h4 {
+	padding: 10px 0 0 0;
+}
+
+.house {
+	background-color: #FAFAFA;
+	margin: 0 10px 0 10px;
+	border: 1px solid #2e4756;
+	border-radius: 3px;
+	padding: 20px 20px 20px 20px;
+}
+
+.house img {
+	max-width: 100%;
+}
+
+/*plumbing page*/
+
+.plumbingintro {
+	margin: 150px 0 30px 0;
+	text-align: center;
+}
+
+.plumbingintro a {
+	text-decoration: underline;
+	color: #2F4550;
+}
+
+.servicesonoffer {
+	text-align: center;
+	margin: 0 0 50px 0;
+}
+
+ul {
+	padding: 20px 0 40px 0;
+}
+
+/*byronway*/
+
+.byronintro {
+	margin: 150px 0 30px 0;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.byron {
+	background-color: #FAFAFA;
+	margin: 0 10px 0 10px;
+	border: 1px solid #2e4756;
+	border-radius: 3px;
+}
+
+.byron img {
+	max-width: 100%;
+}
